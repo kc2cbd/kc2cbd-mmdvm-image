@@ -30,7 +30,7 @@ sleep 5
 
 #Create Ham Radio Menu Directory
 echo "Creating Amateur Radio Menus"
-sudo cp /home/pi/Applications/kc2cbd-image/AmateurRadio.menu /etc/xdg/menus/applications-merged/
+sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/AmateurRadio.menu /etc/xdg/menus/applications-merged/
 sleep 5
 
 # Directory Pre-Requisites
