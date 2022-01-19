@@ -29,6 +29,7 @@ sudo mkdir -p /usr/local/share/NXDNGateway
 sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/conf/NXDNGateway.ini /usr/local/etc/MMDVMConf
 sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/conf/NXDNReflector.ini /usr/local/etc/MMDVMConf
 sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/hosts/NXDNHosts.txt /usr/local/etc/MMDVMHost
+sudo cp /home/pi/Applications/NXDNClients/NXDNGateway/Audio/* /usr/local/share/NXDNGateway
 cd /home/pi/Downloads
 wget https://www.radioid.net/static/nxdn.csv
 sudo cp /home/pi/Downloads/nxdn.csv /usr/local/etc/MMDVMHost/NXDN.csv
