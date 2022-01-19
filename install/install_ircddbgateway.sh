@@ -28,6 +28,7 @@ git clone https://github.com/g4klx/ircDDBGateway.git /home/pi/Applications/ircDD
 sleep 5
 echo "[BUILD][$(date)] ===== Editing Makefile ====="
 notify-send 'BUILD' 'Editing Makefile' --icon=dialog-information
+cd /home/pi/Applications/ircDDBGateway
 sed -i 's+export DATADIR ?= /usr/share/opendv+export DATADIR ?= /usr/local/share/opendv+g' Makefile
 sed -i 's+export LOGDIR  ?= /var/log/opendv+export LOGDIR  ?= /var/log/MMDVM+g' Makefile
 sed -i 's+export CONFDIR ?= /etc+export CONFDIR ?= /usr/local/etc/MMDVMConf+g' Makefile

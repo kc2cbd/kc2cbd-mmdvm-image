@@ -26,9 +26,9 @@ sleep 5
 echo "[BUILD][$(date)] ===== Copying ini Files ====="
 notify-send 'BUILD' 'Copying ini Files' --icon=dialog-information
 sudo mkdir -p /usr/local/share/DMRGateway
-sudo /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/conf/DMRGateway.ini /usr/local/etc/MMDVMConf
+sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/conf/DMRGateway.ini /usr/local/etc/MMDVMConf
 sudo cp /home/pi/Applications/DMRGateway/Audio/* /usr/local/share/DMRGateway
-/home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/hosts/DMRIds.dat /usr/local/etc/MMDVMHost
+sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/hosts/DMRIds.dat /usr/local/etc/MMDVMHost
 sleep 5
 echo "[BUILD][$(date)] ===== DMRGateway Built Successfully ====="
 notify-send 'BUILD' 'DMRGateway Built Successfully' --icon=dialog-information --urgency=critical

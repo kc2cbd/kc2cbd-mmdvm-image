@@ -30,10 +30,10 @@ sleep 5
 echo "[BUILD][$(date)] ===== Copying M17Gateway.ini from Repository ====="
 notify-send 'BUILD' 'Copying M17Gateway.ini from Repository' --icon=dialog-information
 sudo mkdir -p /usr/local/share/M17Gateway
-cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/conf/M17Gateway.ini /usr/local/etc/MMDVMConf
-cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/hosts/M17Hosts.txt /usr/local/etc/MMDVMHost
-cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-share/scripts/M17HostsUpdate.sh /usr/local/share/scripts
-cp /home/pi/Applications/M17Gateway/Audio/* /usr/local/share/M17Gateway
+sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/conf/M17Gateway.ini /usr/local/etc/MMDVMConf
+sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-etc/hosts/M17Hosts.txt /usr/local/etc/MMDVMHost
+sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-share/scripts/M17HostsUpdate.sh /usr/local/share/scripts
+sudo cp /home/pi/Applications/M17Gateway/Audio/* /usr/local/share/M17Gateway
 sleep 5
 echo "[BUILD][$(date)] ===== M17Gateway Built Successfully ====="
 notify-send 'BUILD' 'M17Gateway Built Successfully' --icon=dialog-information --urgency=critical
