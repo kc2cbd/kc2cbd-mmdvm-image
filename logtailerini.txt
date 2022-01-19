@@ -1,0 +1,69 @@
+Recommendations
+
+	- Take care to set Loglevel for FileLevel = 2 in your MMDVM.ini
+
+	- Also set debug = 0 on each section to avoid irritating output 
+	  on the Dashboard
+
+	- At least Python3.7 should be installed
+
+If using DMRHost by BrandMeister-Team
+
+	- If you are using the DMRHost as replacement for MMDVMHost you
+	  should enable DMR-ID-Lookup within logtailer.ini by setting the
+	  corresponding option = 1 Also take care to configure the filepath
+	  to the correct location of your DMRIds.dat.
+
+	- To update the DMRIds.dat file, you can use the script found in
+	  scripts-folder.
+
+Configuration of Talkgroup-Textes in "Target"-column
+
+	You will find a file in /html/data called "TG_List.csv" that is a
+	comma-separated file of following format:
+
+		MODE,TS,TG,LABEL,URL
+		DMR,1,263,DL Multimode BM,
+		DMR,2,8021,Pegasus DMR-DL,
+		DMR,2,2625,RLP/SL BM,
+		YSF,0,1,Local Parrot,
+		YSF,0,2,DEV Reflector,
+		YSF,0,10,YSF2DMR TG26250,
+		YSF,0,40,DL Multimode 263,https://c4fm.ysfreflector.de/Germany/
+
+	First row leave untouched for orientation. The other lines contains
+	on first column the DMR-timeslot the TG is used, second column
+	contains the talkgroup-number and third column contains the label
+	you want to be shown in the target-column of the dashboard. The last
+	column can contain an URL to any dashboard or homepage you like to
+	point to. If no URL is given, on DMR-Mode the corresponding
+	Last-Heard-List for the talkgroup in BrandMeister-Network is linked.
+
+	Please edit this file to your needs. It may change on developer-side
+	from time by time so when updating keep a copy of your personal list
+	to modify/edit it.
+
+	If you do not want to have this Talkgroup-textes in your dashboard,
+	simply remove all but the first line in this file.
+
+Installation Best Practices
+
+	For getting the best user experience it is recommended to configure
+	your MMDVMHost and other G4KLX-software with the following parameter:
+
+		FileRotate=0
+
+	This results in having only one logfile for each program and having
+	it rotated by your linux-system with logrotate if configured.
+
+	You should also configure your logtailer.ini with
+
+		FileRotate=False
+
+	to have the logtailer in correct behaviour for reading this file.
+
+	To configure log rotation in Linux take a look at
+	https://www.tecmint.com/install-logrotate-to-manage-log-rotation-in-linux/.
+
+
+More Information at https://github.com/dg9vh/MMDVMHost-Websocketboard/blob/main/README.md

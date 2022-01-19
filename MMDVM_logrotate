@@ -1,0 +1,11 @@
+/var/log/MMDVM/*.log
+   weekly
+   rotate 3
+   size 20M
+   dateext
+   dateformat -%Y%m%d
+   notifempty
+   compress
+   missingok
+   copytruncate
+}
