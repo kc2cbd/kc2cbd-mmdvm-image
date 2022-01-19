@@ -80,6 +80,7 @@
          <And><Category>MMDVMHost</Category></And>
        </Include>
        </Menu> <!-- End MMDVMHost -->
+     <Menu>       
         <!-- MultiMode -->
        <Name>MultiMode</Name>
        <Directory>multimode.directory</Directory>
