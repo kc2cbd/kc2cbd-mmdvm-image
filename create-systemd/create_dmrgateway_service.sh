@@ -35,5 +35,4 @@ ln -s /lib/systemd/system/dmrgateway.timer /etc/systemd/system/dmrgateway.timer
 ln -s /lib/systemd/system/dmrgateway.service /etc/systemd/system/dmrgateway.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-systemctl enable dmrgateway.timer
-systemctl mask dmrgateway.service
+#systemctl enable dmrgateway.timer

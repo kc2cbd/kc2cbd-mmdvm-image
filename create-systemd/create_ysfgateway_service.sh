@@ -35,5 +35,4 @@ ln -s /lib/systemd/system/ysfgateway.timer /etc/systemd/system/ysfgateway.timer
 ln -s /lib/systemd/system/ysfgateway.service /etc/systemd/system/ysfgateway.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-systemctl enable ysfgateway.timer
-systemctl mask ysfgateway.service
+#systemctl enable ysfgateway.timer

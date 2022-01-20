@@ -35,5 +35,4 @@ ln -s /lib/systemd/system/nxdnreflector.timer /etc/systemd/system/nxdnreflector.
 ln -s /lib/systemd/system/nxdnreflector.service /etc/systemd/system/nxdnreflector.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-systemctl enable nxdnreflector.timer
-systemctl mask nxdnreflector.service
+#systemctl enable nxdnreflector.timer

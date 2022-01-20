@@ -35,5 +35,4 @@ ln -s /lib/systemd/system/m17client.timer /etc/systemd/system/m17client.timer
 ln -s /lib/systemd/system/m17client.service /etc/systemd/system/m17client.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-systemctl enable m17client.timer
-systemctl mask m17client.service
+#systemctl enable m17client.timer

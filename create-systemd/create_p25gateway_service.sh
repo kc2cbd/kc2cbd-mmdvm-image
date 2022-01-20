@@ -35,5 +35,4 @@ ln -s /lib/systemd/system/p25gateway.timer /etc/systemd/system/p25gateway.timer
 ln -s /lib/systemd/system/p25gateway.service /etc/systemd/system/p25gateway.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-systemctl enable p25gateway.timer
-systemctl mask p25gateway.service
+#systemctl enable p25gateway.timer

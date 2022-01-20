@@ -35,5 +35,4 @@ ln -s /lib/systemd/system/fmrepeater.timer /etc/systemd/system/fmrepeater.timer
 ln -s /lib/systemd/system/fmrepeater.service /etc/systemd/system/fmrepeater.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-systemctl enable fmrepeater.timer
-systemctl mask fmrepeater.service
+#systemctl enable fmrepeater.timer

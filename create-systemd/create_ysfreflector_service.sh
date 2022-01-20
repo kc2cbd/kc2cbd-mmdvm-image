@@ -35,5 +35,4 @@ ln -s /lib/systemd/system/ysfreflector.timer /etc/systemd/system/ysfreflector.ti
 ln -s /lib/systemd/system/ysfreflector.service /etc/systemd/system/ysfreflector.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-systemctl enable ysfreflector.timer
-systemctl mask ysfreflector.service
+#systemctl enable ysfreflector.timer

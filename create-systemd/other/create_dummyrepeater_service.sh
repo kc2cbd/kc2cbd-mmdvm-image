@@ -35,5 +35,4 @@ ln -s /lib/systemd/system/dummyrepeater.timer /etc/systemd/system/dummyrepeater.
 ln -s /lib/systemd/system/dummyrepeater.service /etc/systemd/system/dummyrepeater.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-systemctl enable dummyrepeater.timer
-systemctl mask dummyrepeater.service
+#systemctl enable dummyrepeater.timer

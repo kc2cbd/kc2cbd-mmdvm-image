@@ -35,5 +35,4 @@ ln -s /lib/systemd/system/ircddbgateway.timer /etc/systemd/system/ircddbgateway.
 ln -s /lib/systemd/system/ircddbgateway.service /etc/systemd/system/ircddbgateway.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-systemctl enable ircddbgateway.timer
-systemctl mask ircddbgateway.service
+#systemctl enable ircddbgateway.timer
