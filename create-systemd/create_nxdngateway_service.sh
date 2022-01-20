@@ -36,3 +36,4 @@ ln -s /lib/systemd/system/nxdngateway.service /etc/systemd/system/nxdngateway.se
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable nxdngateway.timer
+systemctl mask nxdngateway.service

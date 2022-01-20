@@ -36,3 +36,4 @@ ln -s /lib/systemd/system/dapnetgateway.service /etc/systemd/system/dapnetgatewa
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable dapnetgateway.timer
+systemctl mask dapnetgateway.service

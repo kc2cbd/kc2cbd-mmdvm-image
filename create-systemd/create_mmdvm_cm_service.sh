@@ -36,6 +36,7 @@ ln -s /lib/systemd/system/DMR2M17.service /etc/systemd/system/DMR2M17.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable DMR2M17.timer
+systemctl mask DMR2M17.service
 
 # Create DMR2NXDN Service File
 cat > /lib/systemd/system/DMR2NXDN.service << EOL
@@ -73,6 +74,7 @@ ln -s /lib/systemd/system/DMR2NXDN.service /etc/systemd/system/DMR2NXDN.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable DMR2NXDN.timer
+systemctl mask DMR2NXDN.service
 
 # Create DMR2P25 Service File
 cat > /lib/systemd/system/DMR2P25.service << EOL
@@ -110,6 +112,7 @@ ln -s /lib/systemd/system/DMR2P25.service /etc/systemd/system/DMR2P25.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable DMR2P25.timer
+systemctl mask DMR2P25.service
 
 # Create DMR2YSF Service File
 cat > /lib/systemd/system/DMR2YSF.service << EOL
@@ -147,6 +150,7 @@ ln -s /lib/systemd/system/DMR2YSF.service /etc/systemd/system/DMR2YSF.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable DMR2YSF.timer
+systemctl mask DMR2YSF.service
 
 # Create M172DMR Service File
 cat > /lib/systemd/system/M172DMR.service << EOL
@@ -184,6 +188,7 @@ ln -s /lib/systemd/system/M172DMR.service /etc/systemd/system/M172DMR.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable M172DMR.timer
+systemctl mask M172DMR.service
 
 # Create M172YSF Service File
 cat > /lib/systemd/system/M172YSF.service << EOL
@@ -221,6 +226,7 @@ ln -s /lib/systemd/system/M172YSF.service /etc/systemd/system/M172YSF.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable M172YSF.timer
+systemctl mask M172YSF.service
 
 # Create NXDN2DMR Service File
 cat > /lib/systemd/system/NXDN2DMR.service << EOL
@@ -258,6 +264,7 @@ ln -s /lib/systemd/system/NXDN2DMR.service /etc/systemd/system/NXDN2DMR.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable NXDN2DMR.timer
+systemctl mask NXDN2DMR.service
 
 # Create P252DMR Service File
 cat > /lib/systemd/system/P252DMR.service << EOL
@@ -295,6 +302,7 @@ ln -s /lib/systemd/system/P252DMR.service /etc/systemd/system/P252DMR.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable P252DMR.timer
+systemctl mask P252DMR.service
 
 # Create USRP2DMR Service File
 cat > /lib/systemd/system/USRP2DMR.service << EOL
@@ -332,6 +340,7 @@ ln -s /lib/systemd/system/USRP2DMR.service /etc/systemd/system/USRP2DMR.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable USRP2DMR.timer
+systemctl mask USRP2DMR.service
 
 # Create USRP2M17 Service File
 cat > /lib/systemd/system/USRP2M17.service << EOL
@@ -369,6 +378,7 @@ ln -s /lib/systemd/system/USRP2M17.service /etc/systemd/system/USRP2M17.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable USRP2M17.timer
+systemctl mask USRP2M17.service
 
 # Create USRP2P25 Service File
 cat > /lib/systemd/system/USRP2P25.service << EOL
@@ -406,6 +416,7 @@ ln -s /lib/systemd/system/USRP2P25.service /etc/systemd/system/USRP2P25.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable USRP2P25.timer
+systemctl mask USRP2P25.service
 
 # Create USRP2YSF Service File
 cat > /lib/systemd/system/USRP2YSF.service << EOL
@@ -443,6 +454,7 @@ ln -s /lib/systemd/system/USRP2YSF.service /etc/systemd/system/USRP2P25.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable USRP2YSF.timer
+systemctl mask USRP2YSF.service
 
 # Create YSF2DMR Service File
 cat > /lib/systemd/system/YSF2DMR.service << EOL
@@ -480,6 +492,7 @@ ln -s /lib/systemd/system/YSF2DMR.service /etc/systemd/system/YSF2DMR.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable YSF2DMR.timer
+systemctl mask YSF2DMR.service
 
 # Create YSF2NXDN Service File
 cat > /lib/systemd/system/YSF2NXDN.service << EOL
@@ -517,6 +530,7 @@ ln -s /lib/systemd/system/YSF2NXDN.service /etc/systemd/system/YSF2NXDN.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable YSF2NXDN.timer
+systemctl mask YSF2NXDN.service
 
 # Create YSF2P25 Service File
 cat > /lib/systemd/system/YSF2P25.service << EOL
@@ -554,4 +568,4 @@ ln -s /lib/systemd/system/YSF2P25.service /etc/systemd/system/YSF2P25.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable YSF2P25.timer
-
+systemctl mask YSF2P25.service

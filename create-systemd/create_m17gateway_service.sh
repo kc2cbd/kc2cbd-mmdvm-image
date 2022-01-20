@@ -36,3 +36,4 @@ ln -s /lib/systemd/system/m17gateway.service /etc/systemd/system/m17gateway.serv
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable m17gateway.timer
+systemctl mask m17gateway.service

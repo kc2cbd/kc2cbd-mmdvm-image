@@ -36,3 +36,4 @@ ln -s /lib/systemd/system/dstarrepeater.service /etc/systemd/system/dstarrepeate
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable dstarrepeater.timer
+systemctl mask dstarrepeater.service

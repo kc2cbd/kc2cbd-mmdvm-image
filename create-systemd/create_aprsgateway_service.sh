@@ -36,3 +36,4 @@ ln -s /lib/systemd/system/aprsgateway.service /etc/systemd/system/aprsgateway.se
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable aprsgateway.timer
+systemctl mask aprsgateway.service
