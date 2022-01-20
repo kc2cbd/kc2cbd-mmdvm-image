@@ -1299,7 +1299,7 @@ EOL
 #Categories=MultiMode;
 #EOL
 
-cat > /usr/share/applications/m172dmr_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/m172dmr_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172DMR Background Service Restart
