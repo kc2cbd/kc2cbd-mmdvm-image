@@ -2,9 +2,9 @@
  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
 <Menu>
 	<Name>Applications</Name>
-	<!-- Amateur Radio -->
+	<!-- AmateurRadio -->
 	<Menu>
-		<Name>Amateur Radio</Name>
+		<Name>AmateurRadio</Name>
 		<Directory>AmateurRadio.directory</Directory>
 		<Include>
 			<And>
