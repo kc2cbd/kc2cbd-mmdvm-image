@@ -6,7 +6,7 @@ cat > /home/pi/.local/share/applications/open_Websocketboard_dashboard.desktop <
 Type=Application
 Name=Open Dashboard
 GenericName=Open Dashboard
-Exec=chromium-browser localhost:8000 &
+Exec=chromium-browser localhost:8000
 Icon=
 Terminal=false
 Categories=Dashboard;
@@ -17,7 +17,7 @@ cat > /home/pi/.local/share/applications/edit_logtailer_setup.desktop << EOL
 Type=Application
 Name=Edit logtailer
 GenericName=Edit logtailer
-Exec=sudo geany /opt/MMDVMDash/logtailer.ini &
+Exec=sudo geany /opt/MMDVMDash/logtailer.ini
 Icon=
 Terminal=false
 Categories=Dashboard;
@@ -28,7 +28,7 @@ cat > /home/pi/.local/share/applications/edit_config-js_setup.desktop << EOL
 Type=Application
 Name=Edit config.js
 GenericName=Edit config.js
-Exec=sudo geany /opt/MMDVMDash/html/js/config.js &
+Exec=sudo geany /opt/MMDVMDash/html/js/config.js
 Icon=
 Terminal=false
 Categories=Dashboard;
