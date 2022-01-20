@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_dummyrepeater.desktop << EOL
 Type=Application
 Name=Edit DummyRepeater.ini
 GenericName=Edit DummyRepeater.ini
-Exec=geany /usr/local/etc/MMDVMConf/DummyRepeater.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/DummyRepeater.ini
 Icon=
 Terminal=false
 Categories=Repeater;

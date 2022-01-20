@@ -6,7 +6,7 @@ cat > /home/pi/.local/share/applications/mmdvm-edit_mmdvmini.desktop << EOL
 Type=Application
 Name=Edit MMDVM.ini
 GenericName=Edit MMDVM.ini
-Exec=geany /usr/local/etc/MMDVMConf/MMDVM.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/MMDVM.ini
 Icon=
 Terminal=false
 Categories=MMDVMHost;

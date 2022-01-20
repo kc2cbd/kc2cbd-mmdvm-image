@@ -20,7 +20,7 @@ sleep 5
 #Install needed Apps
 echo "[BUILD][$(date)] ===== Installing Needed Applications ====="
 notify-send 'BUILD' 'Installing Needed Applications' --icon=dialog-information --urgency=critical
-sudo apt-get install -y git python3  python3-websockets python3-gpiozero python3-psutil python3-serial python3-pip colorized-logs
+sudo apt-get install -y git python3  python3-websockets python3-gpiozero python3-psutil python3-serial python3-pip colorized-logs colordiff colormake ccze colortail
 sudo pip3 install ansi2html
 sleep 5
 #Create MMDVM System User
@@ -73,15 +73,15 @@ sleep 5
 echo "[BUILD][$(date)] ===== Enabling Services ====="
 notify-send 'BUILD' 'Enabling Services' --icon=dialog-information --urgency=critical
 # Make Service Executable
-chmod 755 /lib/systemd/system/http.server.service
-chmod 755 /lib/systemd/system/logtailer.service
+sudo chmod 755 /lib/systemd/system/http.server.service
+sudo chmod 755 /lib/systemd/system/logtailer.service
 # Delete Old Symbolic Links for Service
-rm -Rf /etc/systemd/system/http.server.service /etc/systemd/system/logtailer.service
+sudo rm -Rf /etc/systemd/system/http.server.service /etc/systemd/system/logtailer.service
 # Create Symbolic Links for Service
-ln -s /lib/systemd/system/http.server.service /etc/systemd/system/http.server.service
-ln -s /lib/systemd/system/logtailer.service /etc/systemd/system/logtailer.service
+sudo ln -s /lib/systemd/system/http.server.service /etc/systemd/system/http.server.service
+sudo ln -s /lib/systemd/system/logtailer.service /etc/systemd/system/logtailer.service
 # Pickup New Service and Enable Timer
-systemctl daemon-reload
+sudo systemctl daemon-reload
 sudo systemctl enable http.server.service
 sudo systemctl enable logtailer.service
 sleep 5

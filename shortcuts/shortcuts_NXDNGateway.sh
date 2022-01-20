@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_nxdngateway.desktop << EOL
 Type=Application
 Name=Edit NXDNGateway.ini
 GenericName=Edit NXDNGateway.ini
-Exec=geany /usr/local/etc/MMDVMConf/NXDNGateway.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/NXDNGateway.ini
 Icon=
 Terminal=false
 Categories=NXDN;

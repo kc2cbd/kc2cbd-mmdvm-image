@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_dapnetgatewayini.desktop << EOL
 Type=Application
 Name=Edit DAPNETGateway.ini
 GenericName=Edit DAPNETGateway.ini
-Exec=geany /usr/local/etc/MMDVMConf/DAPNETGateway.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/DAPNETGateway.ini
 Icon=
 Terminal=false
 Categories=DAPNET;

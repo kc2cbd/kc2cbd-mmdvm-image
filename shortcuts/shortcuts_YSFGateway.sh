@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_ysfgateway.desktop << EOL
 Type=Application
 Name=Edit YSFGateway.ini
 GenericName=Edit YSFGateway.ini
-Exec=geany /usr/local/etc/MMDVMConf/YSFGateway.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/YSFGateway.ini
 Icon=
 Terminal=false
 Categories=YSF;

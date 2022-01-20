@@ -6,7 +6,7 @@ cat > /home/pi/.local/share/applications/edit_dmr2m17.desktop << EOL
 Type=Application
 Name=Edit DMR2M17.ini
 GenericName=Edit DMR2M17.ini
-Exec=geany /usr/local/etc/MMDVMConf/DMR2M17.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/DMR2M17.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -17,7 +17,7 @@ cat > /home/pi/.local/share/applications/edit_dmr2nxdn.desktop << EOL
 Type=Application
 Name=Edit DMR2NXDN.ini
 GenericName=Edit DMR2NXDN.ini
-Exec=geany /usr/local/etc/MMDVMConf/DMR2NXDN.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/DMR2NXDN.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -28,7 +28,7 @@ cat > /home/pi/.local/share/applications/edit_dmr2p25.desktop << EOL
 Type=Application
 Name=Edit DMR2P25.ini
 GenericName=Edit DMR2P25.ini
-Exec=geany /usr/local/etc/MMDVMConf/DMR2P25.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/DMR2P25.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -39,7 +39,7 @@ cat > /home/pi/.local/share/applications/edit_dmr2ysf.desktop << EOL
 Type=Application
 Name=Edit DMR2YSF.ini
 GenericName=Edit DMR2YSF.ini
-Exec=geany /usr/local/etc/MMDVMConf/DMR2YSF.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/DMR2YSF.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -50,7 +50,7 @@ EOL
 #Type=Application
 #Name=Edit DSTAR2YSF.ini
 #GenericName=Edit DSTAR2YSF.ini
-#Exec=geany /usr/local/etc/MMDVMConf/DSTAR2YSF.ini
+#Exec=sudo geany /usr/local/etc/MMDVMConf/DSTAR2YSF.ini
 #Icon=
 #Terminal=false
 #Categories=MultiMode;
@@ -61,7 +61,7 @@ cat > /home/pi/.local/share/applications/edit_m172dmr.desktop << EOL
 Type=Application
 Name=Edit M172DMR.ini
 GenericName=Edit M172DMR.ini
-Exec=geany /usr/local/etc/MMDVMConf/M172DMR.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/M172DMR.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -72,7 +72,7 @@ cat > /home/pi/.local/share/applications/edit_m172ysf.desktop << EOL
 Type=Application
 Name=Edit M172YSF.ini
 GenericName=Edit M172YSF.ini
-Exec=geany /usr/local/etc/MMDVMConf/M172YSF.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/M172YSF.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_nxdn2dmr.desktop << EOL
 Type=Application
 Name=Edit NXDN2DMR.ini
 GenericName=Edit NXDN2DMR.ini
-Exec=geany /usr/local/etc/MMDVMConf/NXDN2DMR.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/NXDN2DMR.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -94,7 +94,7 @@ cat > /home/pi/.local/share/applications/edit_p252dmr.desktop << EOL
 Type=Application
 Name=Edit P252DMR.ini
 GenericName=Edit P252DMR.ini
-Exec=geany /usr/local/etc/MMDVMConf/P252DMR.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/P252DMR.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -105,7 +105,7 @@ cat > /home/pi/.local/share/applications/edit_usrp2dmr.desktop << EOL
 Type=Application
 Name=Edit USRP2DMR.ini
 GenericName=Edit USRP2DMR.ini
-Exec=geany /usr/local/etc/MMDVMConf/USRP2DMR.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/USRP2DMR.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -116,7 +116,7 @@ cat > /home/pi/.local/share/applications/edit_usrp2m17.desktop << EOL
 Type=Application
 Name=Edit USRP2M17.ini
 GenericName=Edit USRP2M17.ini
-Exec=geany /usr/local/etc/MMDVMConf/USRP2M17.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/USRP2M17.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -127,7 +127,7 @@ cat > /home/pi/.local/share/applications/edit_usrp2p25.desktop << EOL
 Type=Application
 Name=Edit USRP2P25.ini
 GenericName=Edit USRP2P25.ini
-Exec=geany /usr/local/etc/MMDVMConf/USRP2P25.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/USRP2P25.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -138,7 +138,7 @@ cat > /home/pi/.local/share/applications/edit_usrp2ysf.desktop << EOL
 Type=Application
 Name=Edit USRP2YSF.ini
 GenericName=Edit USRP2YSF.ini
-Exec=geany /usr/local/etc/MMDVMConf/USRP2YSF.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/USRP2YSF.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -149,7 +149,7 @@ cat > /home/pi/.local/share/applications/edit_ysf2dmr.desktop << EOL
 Type=Application
 Name=Edit YSF2DMR.ini
 GenericName=Edit YSF2DMR.ini
-Exec=geany /usr/local/etc/MMDVMConf/YSF2DMR.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/YSF2DMR.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -160,7 +160,7 @@ cat > /home/pi/.local/share/applications/edit_ysf2nxdn.desktop << EOL
 Type=Application
 Name=Edit YSF2NXDN.ini
 GenericName=Edit YSF2NXDN.ini
-Exec=geany /usr/local/etc/MMDVMConf/YSF2NXDN.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/YSF2NXDN.ini
 Icon=
 Terminal=false
 Categories=MultiMode;
@@ -171,7 +171,7 @@ cat > /home/pi/.local/share/applications/edit_ysf2p25.desktop << EOL
 Type=Application
 Name=Edit YSF2P25.ini
 GenericName=Edit YSF2P25.ini
-Exec=geany /usr/local/etc/MMDVMConf/YSF2P25.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/YSF2P25.ini
 Icon=
 Terminal=false
 Categories=MultiMode;

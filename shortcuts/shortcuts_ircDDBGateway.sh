@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_ircddbgateway.desktop << EOL
 Type=Application
 Name=Edit ircDDBGateway.ini
 GenericName=Edit ircDDBGateway.ini
-Exec=geany /usr/local/etc/MMDVMConf/ircDDBGateway.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/ircDDBGateway
 Icon=
 Terminal=false
 Categories=DStar;

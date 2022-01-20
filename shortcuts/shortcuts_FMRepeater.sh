@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_fmrepeater.desktop << EOL
 Type=Application
 Name=Edit FMRepeater.ini
 GenericName=Edit FMRepeater.ini
-Exec=geany /usr/local/etc/MMDVMConf/FMRepeater.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/FMRepeater.ini
 Icon=
 Terminal=false
 Categories=FM;

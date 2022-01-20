@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_aprsgatewayini.desktop << EOL
 Type=Application
 Name=Edit APRSGateway.ini
 GenericName=Edit APRSGateway.ini
-Exec=geany /usr/local/etc/MMDVMConf/APRSGateway.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/APRSGateway.ini
 Icon=
 Terminal=false
 Categories=APRS;

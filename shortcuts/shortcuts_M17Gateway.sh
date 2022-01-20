@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_m17gateway.desktop << EOL
 Type=Application
 Name=Edit M17Gateway.ini
 GenericName=Edit M17Gateway.ini
-Exec=geany /usr/local/etc/MMDVMConf/M17Gateway.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/M17Gateway.ini
 Icon=
 Terminal=false
 Categories=M17;

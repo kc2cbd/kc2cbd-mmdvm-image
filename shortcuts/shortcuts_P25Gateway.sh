@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_p25gateway.desktop << EOL
 Type=Application
 Name=Edit P25Gateway.ini
 GenericName=Edit P25Gateway.ini
-Exec=geany /usr/local/etc/MMDVMConf/P25Gateway.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/P25Gateway.ini
 Icon=
 Terminal=false
 Categories=P25;

@@ -83,7 +83,7 @@ cat > /home/pi/.local/share/applications/edit_dmrgatewayini.desktop << EOL
 Type=Application
 Name=Edit DMRGateway.ini
 GenericName=Edit DMRGateway.ini
-Exec=geany /usr/local/etc/MMDVMConf/DMRGateway.ini
+Exec=sudo geany /usr/local/etc/MMDVMConf/DMRGateway.ini
 Icon=
 Terminal=false
 Categories=DMR;
