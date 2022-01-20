@@ -7,6 +7,7 @@ sleep 5
 
 # VNC Mods
 echo "Creating VNC Mods"
+notify-send 'Creating VNC Mods' --icon=dialog-information
 sudo bash -c 'echo " " >> /boot/config.txt'
 sudo bash -c 'echo "# Change VNC Resolution" >> /boot/config.txt'
 sudo bash -c 'echo "hdmi_force_hotplug=1" >> /boot/config.txt'
@@ -17,6 +18,7 @@ sleep 5
 
 # DV-Mega Mods
 echo "Creating DV-Mega Mods"
+notify-send 'Creating DV-Mega Mods' --icon=dialog-information
 sudo systemctl stop serial-getty@ttyAMA0.service
 sudo systemctl disable serial-getty@ttyAMA0.service
 sudo systemctl stop hciuart
@@ -28,9 +30,16 @@ sudo bash -c 'echo "# Disable Bluetooth on Raspberry Pi 3" >> /boot/config.txt'
 sudo bash -c 'echo "dtoverlay=pi3-disable-bt" >> /boot/config.txt'
 sleep 5
 
-#Create Ham Radio Menu Directory
+#Create Ham Radio Menu
 echo "Creating Amateur Radio Menus"
+notify-send 'Creating Amateur Radio Menus' --icon=dialog-information
 sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/AmateurRadio.menu /etc/xdg/menus/applications-merged/
+sleep 5
+
+#Create Ham Radio Directories
+echo "Creating Amateur Radio Directories"
+notify-send 'Creating Amateur Radio Directories' --icon=dialog-information
+sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/desktop-directories/* /usr/share/raspi-ui-overrides/desktop-directories/
 sleep 5
 
 # Directory Pre-Requisites
