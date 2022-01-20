@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create M17 Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/m17gateway_start.desktop << EOL
+cat > /home/pi/.local/share/applications/m17gateway_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M17Gateway Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=M17;
 EOL
 
-cat > /usr/share/applications/m17gateway_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/m17gateway_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M17Gateway Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=M17;
 EOL
 
-cat > /usr/share/applications/m17gateway_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/m17gateway_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M17Gateway Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=M17;
 EOL
 
-cat > /usr/share/applications/m17gateway_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/m17gateway_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M17Gateway Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=M17;
 EOL
 
-cat > /usr/share/applications/m17gateway_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/m17gateway_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M17Gateway Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=M17;
 EOL
 
-cat > /usr/share/applications/m17gateway_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/m17gateway_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M17Gateway Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=M17;
 EOL
 
-cat > /usr/share/applications/m17gateway_update.desktop << EOL
+cat > /home/pi/.local/share/applications/m17gateway_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update M17Gateway
@@ -78,7 +78,7 @@ Terminal=true
 Categories=M17;
 EOL
 
-cat > /usr/share/applications/edit_m17gateway.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_m17gateway.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit M17Gateway.ini
@@ -89,7 +89,7 @@ Terminal=false
 Categories=M17;
 EOL
 
-cat > /usr/share/applications/m17gateway_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/m17gateway_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset M17Gateway.ini
@@ -100,7 +100,7 @@ Terminal=true
 Categories=M17;
 EOL
 
-cat > /usr/share/applications/m17gateway_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/m17gateway_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild M17Gateway

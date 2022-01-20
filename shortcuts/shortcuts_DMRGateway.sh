@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create DMRGateway Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/dmrgateway_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dmrgateway_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMRGateway Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=DMR;
 EOL
 
-cat > /usr/share/applications/dmrgateway_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dmrgateway_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMRGateway Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=DMR;
 EOL
 
-cat > /usr/share/applications/dmrgateway_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/dmrgateway_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMRGateway Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=DMR;
 EOL
 
-cat > /usr/share/applications/dmrgateway_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dmrgateway_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMRGateway Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=DMR;
 EOL
 
-cat > /usr/share/applications/dmrgateway_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dmrgateway_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMRGateway Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=DMR;
 EOL
 
-cat > /usr/share/applications/dmrgateway_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/dmrgateway_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMRGateway Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=DMR;
 EOL
 
-cat > /usr/share/applications/dmrgateway_update.desktop << EOL
+cat > /home/pi/.local/share/applications/dmrgateway_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update DMRGateway
@@ -78,7 +78,7 @@ Terminal=true
 Categories=DMR;
 EOL
 
-cat > /usr/share/applications/edit_dmrgatewayini.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_dmrgatewayini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit DMRGateway.ini
@@ -89,7 +89,7 @@ Terminal=false
 Categories=DMR;
 EOL
 
-cat > /usr/share/applications/dmrgateway_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/dmrgateway_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset DMRGateway.ini
@@ -100,7 +100,7 @@ Terminal=true
 Categories=DMR;
 EOL
 
-cat > /usr/share/applications/dmrgateway_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/dmrgateway_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild DMRGateway

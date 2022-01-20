@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create DStarRepeater Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/dstarrepeater_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dstarrepeater_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DStarRepeater Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/dstarrepeater_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dstarrepeater_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DStarRepeater Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/dstarrepeater_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/dstarrepeater_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DStarRepeater Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/dstarrepeater_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dstarrepeater_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DStarRepeater Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/dstarrepeater_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dstarrepeater_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DStarRepeater Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/dstarrepeater_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/dstarrepeater_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DStarRepeater Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/dmrgateway_update.desktop << EOL
+cat > /home/pi/.local/share/applications/dstarrepeater_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update DStarRepeater
@@ -78,7 +78,7 @@ Terminal=true
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/edit_dstarrepeaterini.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_dstarrepeaterini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit DStarRepeater Configuration
@@ -89,7 +89,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/dstarrepeater_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/dstarrepeater_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset DStarRepeater Configuration
@@ -100,7 +100,7 @@ Terminal=true
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/dstarrepeater_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/dstarrepeater_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild DStarRepeater

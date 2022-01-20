@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create MMDVMHost Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/mmdvm-edit_mmdvmini.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-edit_mmdvmini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit MMDVM.ini
@@ -12,7 +12,7 @@ Terminal=false
 Categories=MMDVMHost;
 EOL
 
-cat > /usr/share/applications/mmdvm-mmdvmhost_start.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-mmdvmhost_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVMHost Start
@@ -23,7 +23,7 @@ Terminal=false
 Categories=MMDVMHost;
 EOL
 
-cat > /usr/share/applications/mmdvm-mmdvmhost_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-mmdvmhost_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVMHost Stop
@@ -34,7 +34,7 @@ Terminal=false
 Categories=MMDVMHost;
 EOL
 
-cat > /usr/share/applications/mmdvm-mmdvmhost_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-mmdvmhost_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVMHost Background Service Console
@@ -45,7 +45,7 @@ Terminal=true
 Categories=MMDVMHost;
 EOL
 
-cat > /usr/share/applications/mmdvm-mmdvmhost_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-mmdvmhost_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVMHost Background Service Start
@@ -56,7 +56,7 @@ Terminal=false
 Categories=MMDVMHost;
 EOL
 
-cat > /usr/share/applications/mmdvm-mmdvmhost_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-mmdvmhost_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVMHost Background Service Stop
@@ -67,7 +67,7 @@ Terminal=false
 Categories=MMDVMHost;
 EOL
 
-cat > /usr/share/applications/mmdvm-mmdvmhost_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-mmdvmhost_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVMHost Background Service Restart
@@ -78,7 +78,7 @@ Terminal=false
 Categories=MMDVMHost;
 EOL
 
-cat > /usr/share/applications/mmdvmhost-update.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvmhost-update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update MMDVMHost
@@ -89,7 +89,7 @@ Terminal=true
 Categories=MMDVMHost;
 EOL
 
-cat > /usr/share/applications/mmdvmhost-rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvmhost-rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild MMDVMHost From Source
@@ -100,7 +100,7 @@ Terminal=true
 Categories=MMDVMHost;
 EOL
 
-cat > /usr/share/applications/mmdvm-resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset MMDVM.ini

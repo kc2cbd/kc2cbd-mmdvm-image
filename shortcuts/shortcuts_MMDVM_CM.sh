@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create APRSGATEWAY Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/edit_dmr2m17.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_dmr2m17.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit DMR2M17.ini
@@ -12,7 +12,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_dmr2nxdn.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_dmr2nxdn.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit DMR2NXDN.ini
@@ -23,7 +23,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_dmr2p25.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_dmr2p25.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit DMR2P25.ini
@@ -34,7 +34,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_dmr2ysf.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_dmr2ysf.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit DMR2YSF.ini
@@ -45,7 +45,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-#cat > /usr/share/applications/edit_dstar2ysf.desktop << EOL
+#cat > /home/pi/.local/share/applications/edit_dstar2ysf.desktop << EOL
 #[Desktop Entry]
 #Type=Application
 #Name=Edit DSTAR2YSF.ini
@@ -56,7 +56,7 @@ EOL
 #Categories=MultiMode;
 #EOL
 
-cat > /usr/share/applications/edit_m172dmr.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_m172dmr.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit M172DMR.ini
@@ -67,7 +67,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_m172ysf.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_m172ysf.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit M172YSF.ini
@@ -78,7 +78,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_nxdn2dmr.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_nxdn2dmr.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit NXDN2DMR.ini
@@ -89,7 +89,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_p252dmr.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_p252dmr.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit P252DMR.ini
@@ -100,7 +100,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_usrp2dmr.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_usrp2dmr.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit USRP2DMR.ini
@@ -111,7 +111,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_usrp2m17.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_usrp2m17.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit USRP2M17.ini
@@ -122,7 +122,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_usrp2p25.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_usrp2p25.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit USRP2P25.ini
@@ -133,7 +133,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_usrp2ysf.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_usrp2ysf.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit USRP2YSF.ini
@@ -144,7 +144,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_ysf2dmr.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_ysf2dmr.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit YSF2DMR.ini
@@ -155,7 +155,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_ysf2nxdn.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_ysf2nxdn.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit YSF2NXDN.ini
@@ -166,7 +166,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/edit_ysf2p25.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_ysf2p25.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit YSF2P25.ini
@@ -177,7 +177,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2m17_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2m17_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset DMR2M17.ini
@@ -188,7 +188,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2nxdn_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2nxdn_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset DMR2NXDN.ini
@@ -199,7 +199,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2p25_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2p25_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset DMR2P25.ini
@@ -210,7 +210,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2ysf_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2ysf_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset DMR2YSF.ini
@@ -221,7 +221,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-#cat > /usr/share/applications/dstar2ysf_resetini.desktop << EOL
+#cat > /home/pi/.local/share/applications/dstar2ysf_resetini.desktop << EOL
 #[Desktop Entry]
 #Type=Application
 #Name=Reset DSTAR2YSF.ini
@@ -232,7 +232,7 @@ EOL
 #Categories=MultiMode;
 #EOL
 
-cat > /usr/share/applications/m172dmr_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/m172dmr_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset M172DMR.ini
@@ -243,7 +243,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/m172ysf_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/m172ysf_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset M172YSF.ini
@@ -254,7 +254,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/nxdn2dmr_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdn2dmr_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset NXDN2DMR.ini
@@ -265,7 +265,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/p252dmr_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/p252dmr_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset P252DMR.ini
@@ -276,7 +276,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2m17_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2m17_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset USRP2M17.ini
@@ -287,7 +287,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2p25_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2p25_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset USRP2P25.ini
@@ -298,7 +298,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2ysf_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2ysf_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset USRP2YSF.ini
@@ -309,7 +309,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2dmr_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2dmr_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset YSF2DMR.ini
@@ -320,7 +320,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2nxdn_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2nxdn_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset YSF2NXDN.ini
@@ -331,7 +331,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2p25_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2p25_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset YSF2P25.ini
@@ -342,7 +342,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/mmdvm_cm_update.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm_cm_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update MMDVM_CM
@@ -353,7 +353,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/mmdvm_cm_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm_cm_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild MMDVM_CM
@@ -364,7 +364,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2m17_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2m17_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2M17 Start
@@ -375,7 +375,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2nxdn_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2nxdn_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2NXDN Start
@@ -386,7 +386,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2p25_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2p25_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2P25 Start
@@ -397,7 +397,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2ysf_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2ysf_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2YSF Start
@@ -408,7 +408,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-#cat > /usr/share/applications/dstar2ysf_start.desktop << EOL
+#cat > /home/pi/.local/share/applications/dstar2ysf_start.desktop << EOL
 #[Desktop Entry]
 #Type=Application
 #Name=DSTAR2YSF Start
@@ -419,7 +419,7 @@ EOL
 #Categories=MultiMode;
 #EOL
 
-cat > /usr/share/applications/m172dmr_start.desktop << EOL
+cat > /home/pi/.local/share/applications/m172dmr_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172DMR Start
@@ -430,7 +430,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/m172ysf_start.desktop << EOL
+cat > /home/pi/.local/share/applications/m172ysf_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172YSF Start
@@ -441,7 +441,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/nxdn2dmr_start.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdn2dmr_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDN2DMR Start
@@ -452,7 +452,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/p252dmr_start.desktop << EOL
+cat > /home/pi/.local/share/applications/p252dmr_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P252DMR Start
@@ -463,7 +463,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2dmr_start.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2dmr_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2DMR Start
@@ -474,7 +474,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2m17_start.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2m17_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2M17 Start
@@ -485,7 +485,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2p25_start.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2p25_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2P25 Start
@@ -496,7 +496,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2ysf_start.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2ysf_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2YSF Start
@@ -507,7 +507,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2dmr_start.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2dmr_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2DMR Start
@@ -518,7 +518,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2nxdn_start.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2nxdn_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2NXDN Start
@@ -529,7 +529,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2p25_start.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2p25_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2P25 Start
@@ -540,7 +540,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2m17_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2m17_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2M17 Stop
@@ -551,7 +551,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2nxdn_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2nxdn_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2NXDN Stop
@@ -562,7 +562,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2p25_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2p25_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2P25 Stop
@@ -573,7 +573,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2ysf_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2ysf_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2YSF Stop
@@ -584,7 +584,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-#cat > /usr/share/applications/dstar2ysf_stop.desktop << EOL
+#cat > /home/pi/.local/share/applications/dstar2ysf_stop.desktop << EOL
 #[Desktop Entry]
 #Type=Application
 #Name=DSTAR2YSF Stop
@@ -595,7 +595,7 @@ EOL
 #Categories=MultiMode;
 #EOL
 
-cat > /usr/share/applications/m172dmr_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/m172dmr_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172DMR Stop
@@ -606,7 +606,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/m172ysf_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/m172ysf_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172YSF Stop
@@ -617,7 +617,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/nxdn2dmr_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdn2dmr_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDN2DMR Stop
@@ -628,7 +628,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/p252dmr_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/p252dmr_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P252DMR Stop
@@ -639,7 +639,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2dmr_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2dmr_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2DMR Stop
@@ -650,7 +650,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2m17_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2m17_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2M17 Stop
@@ -661,7 +661,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2p25_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2p25_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2P25 Stop
@@ -672,7 +672,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2ysf_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2ysf_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2YSF Stop
@@ -683,7 +683,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2dmr_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2dmr_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2DMR Stop
@@ -694,7 +694,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2nxdn_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2nxdn_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2NXDN Stop
@@ -705,7 +705,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2p25_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2p25_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2P25 Stop
@@ -716,7 +716,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2m17_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2m17_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2M17 Background Service Console
@@ -727,7 +727,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2nxdn_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2nxdn_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2NXDN Background Service Console
@@ -738,7 +738,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2p25_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2p25_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2P25 Background Service Console
@@ -749,7 +749,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2ysf_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2ysf_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2YSF Background Service Console
@@ -760,7 +760,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-#cat > /usr/share/applications/dstar2ysf_service_console.desktop << EOL
+#cat > /home/pi/.local/share/applications/dstar2ysf_service_console.desktop << EOL
 #[Desktop Entry]
 #Type=Application
 #Name=DSTAR2YSF Background Service Console
@@ -771,7 +771,7 @@ EOL
 #Categories=MultiMode;
 #EOL
 
-cat > /usr/share/applications/m172dmr_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/m172dmr_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172DMR Background Service Console
@@ -782,7 +782,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/m172ysf_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/m172ysf_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172YSF Background Service Console
@@ -793,7 +793,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/nxdn2dmr_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdn2dmr_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDN2DMR Background Service Console
@@ -804,7 +804,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/p252dmr_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/p252dmr_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P252DMR Background Service Console
@@ -815,7 +815,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2dmr_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2dmr_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2DMR Background Service Console
@@ -826,7 +826,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2m17_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2m17_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2M17 Background Service Console
@@ -837,7 +837,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2p25_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2p25_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2P25 Background Service Console
@@ -848,7 +848,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2ysf_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2ysf_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2YSF Background Service Console
@@ -859,7 +859,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2dmr_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2dmr_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2DMR Background Service Console
@@ -870,7 +870,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2nxdn_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2nxdn_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2NXDN Background Service Console
@@ -881,7 +881,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2p25_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2p25_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2P25 Background Service Console
@@ -892,7 +892,7 @@ Terminal=true
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2m17_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2m17_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2M17 Background Service Start
@@ -903,7 +903,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2nxdn_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2nxdn_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2NXDN Background Service Start
@@ -914,7 +914,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2p25_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2p25_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2P25 Background Service Start
@@ -925,7 +925,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2ysf_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2ysf_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2YSF Background Service Start
@@ -936,7 +936,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-#cat > /usr/share/applications/dtar2ysf_service_start.desktop << EOL
+#cat > /home/pi/.local/share/applications/dtar2ysf_service_start.desktop << EOL
 #[Desktop Entry]
 #Type=Application
 #Name=DSTAR2YSF Background Service Start
@@ -947,7 +947,7 @@ EOL
 #Categories=MultiMode;
 #EOL
 
-cat > /usr/share/applications/m172dmr_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/m172dmr_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172DMR Background Service Start
@@ -958,7 +958,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/m172ysf_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/m172ysf_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172YSF Background Service Start
@@ -969,7 +969,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/nxdn2dmr_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdn2dmr_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDN2DMR Background Service Start
@@ -980,7 +980,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/p252dmr_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/p252dmr_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P252DMR Background Service Start
@@ -991,7 +991,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2dmr_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2dmr_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2DMR Background Service Start
@@ -1002,7 +1002,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2m17_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2m17_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2M17 Background Service Start
@@ -1013,7 +1013,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2p25_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2p25_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2P25 Background Service Start
@@ -1024,7 +1024,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2ysf_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2ysf_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2YSF Background Service Start
@@ -1035,7 +1035,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2dmr_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2dmr_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2DMR Background Service Start
@@ -1046,7 +1046,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2nxdn_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2nxdn_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2NXDN Background Service Start
@@ -1057,7 +1057,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2p25_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2p25_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2P25 Background Service Start
@@ -1068,7 +1068,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2m17_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2m17_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2M17 Background Service Stop
@@ -1079,7 +1079,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2nxdn_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2nxdn_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2NXDN Background Service Stop
@@ -1090,7 +1090,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2p25_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2p25_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2P25 Background Service Stop
@@ -1101,7 +1101,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2ysf_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2ysf_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2YSF Background Service Stop
@@ -1112,7 +1112,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-#cat > /usr/share/applications/dstar2ysf_service_stop.desktop << EOL
+#cat > /home/pi/.local/share/applications/dstar2ysf_service_stop.desktop << EOL
 #[Desktop Entry]
 #Type=Application
 #Name=DSTAR2YSF Background Service Stop
@@ -1123,7 +1123,7 @@ EOL
 #Categories=MultiMode;
 #EOL
 
-cat > /usr/share/applications/m172dmr_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/m172dmr_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172DMR Background Service Stop
@@ -1134,7 +1134,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/m172ysf_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/m172ysf_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172YSF Background Service Stop
@@ -1145,7 +1145,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/nxdn2dmr_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdn2dmr_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDN2DMR Background Service Stop
@@ -1156,7 +1156,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/p252dmr_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/p252dmr_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P252DMR Background Service Stop
@@ -1167,7 +1167,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2dmr_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2dmr_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2DMR Background Service Stop
@@ -1178,7 +1178,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2m17_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2m17_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2M17 Background Service Stop
@@ -1189,7 +1189,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2p25_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2p25_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2P25 Background Service Stop
@@ -1200,7 +1200,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2ysf_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2ysf_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2YSF Background Service Stop
@@ -1211,7 +1211,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2dmr_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2dmr_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2DMR Background Service Stop
@@ -1222,7 +1222,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2nxdn_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2nxdn_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2NXDN Background Service Stop
@@ -1233,7 +1233,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2p25_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2p25_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2P25 Background Service Stop
@@ -1244,7 +1244,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2m17_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2m17_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2M17 Background Service Restart
@@ -1255,7 +1255,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2nxdn_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2nxdn_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2NXDN Background Service Restart
@@ -1266,7 +1266,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2p25_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2p25_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2P25 Background Service Restart
@@ -1277,7 +1277,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/dmr2ysf_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/dmr2ysf_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DMR2YSF Background Service Restart
@@ -1288,7 +1288,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-#cat > /usr/share/applications/dstar2ysf_service_restart.desktop << EOL
+#cat > /home/pi/.local/share/applications/dstar2ysf_service_restart.desktop << EOL
 #[Desktop Entry]
 #Type=Application
 #Name=DSTAR2YSF Background Service Restart
@@ -1309,8 +1309,7 @@ Icon=
 Terminal=false
 Categories=MultiMode;
 EOL
-
-cat > /usr/share/applications/m172ysf_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/m172ysf_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=M172YSF Background Service Restart
@@ -1321,7 +1320,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/nxdn2dmr_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdn2dmr_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDN2DMR Background Service Restart
@@ -1332,7 +1331,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/p252dmr_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/p252dmr_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P252DMR Background Service Restart
@@ -1343,7 +1342,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2dmr_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2dmr_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2DMR Background Service Restart
@@ -1354,7 +1353,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2m17_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2m17_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2M17 Background Service Restart
@@ -1365,7 +1364,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2p25_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2p25_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2P25 Background Service Restart
@@ -1376,7 +1375,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/usrp2ysf_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/usrp2ysf_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=USRP2YSF Background Service Restart
@@ -1387,7 +1386,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2dmr_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2dmr_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2DMR Background Service Restart
@@ -1398,7 +1397,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2nxdn_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2nxdn_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2NXDN Background Service Restart
@@ -1409,7 +1408,7 @@ Terminal=false
 Categories=MultiMode;
 EOL
 
-cat > /usr/share/applications/ysf2p25_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/ysf2p25_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSF2P25 Background Service Restart

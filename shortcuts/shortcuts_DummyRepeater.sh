@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create DummyRepeater Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/dummyrepeater_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dummyrepeater_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DummyRepeater Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=Repeater;
 EOL
 
-cat > /usr/share/applications/dummyrepeater_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dummyrepeater_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DummyRepeater Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=Repeater;
 EOL
 
-cat > /usr/share/applications/dummyrepeater_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/dummyrepeater_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DummyRepeater Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=Repeater;
 EOL
 
-cat > /usr/share/applications/dummyrepeater_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dummyrepeater_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DummyRepeater Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=Repeater;
 EOL
 
-cat > /usr/share/applications/dummyrepeater_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dummyrepeater_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DummyRepeater Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=Repeater;
 EOL
 
-cat > /usr/share/applications/dummyrepeater_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/dummyrepeater_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DummyRepeater Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=Repeater;
 EOL
 
-cat > /usr/share/applications/dummyrepeater_update.desktop << EOL
+cat > /home/pi/.local/share/applications/dummyrepeater_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update DummyRepeater
@@ -78,7 +78,7 @@ Terminal=true
 Categories=Repeater;
 EOL
 
-cat > /usr/share/applications/edit_dummyrepeater.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_dummyrepeater.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit DummyRepeater.ini
@@ -89,7 +89,7 @@ Terminal=false
 Categories=Repeater;
 EOL
 
-cat > /usr/share/applications/dummyrepeater_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/dummyrepeater_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset DummyRepeater.ini
@@ -100,7 +100,7 @@ Terminal=true
 Categories=Repeater;
 EOL
 
-cat > /usr/share/applications/dummyrepeater_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/applications/dummyrepeater_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild DummyRepeater

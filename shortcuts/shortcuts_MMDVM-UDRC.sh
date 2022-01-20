@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create MMDVM-UDRC Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/mmdvm-udrc_start.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-udrc_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVM-UDRC Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=MMDVM;
 EOL
 
-cat > /usr/share/applications/mmdvm-udrc_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-udrc_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVM-UDRC Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=MMDVM;
 EOL
 
-cat > /usr/share/applications/mmdvm-udrc_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-udrc_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVM-UDRC Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=MMDVM;
 EOL
 
-cat > /usr/share/applications/mmdvm-udrc_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-udrc_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVM-UDRC Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=MMDVM;
 EOL
 
-cat > /usr/share/applications/mmdvm-udrc_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-udrc_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVM-UDRC Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=MMDVM;
 EOL
 
-cat > /usr/share/applications/mmdvm-udrc_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-udrc_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=MMDVM-UDRC Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=MMDVM;
 EOL
 
-cat > /usr/share/applications/mmdvm-udrc_update.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-udrc_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update MMDVM-UDRC
@@ -78,7 +78,7 @@ Terminal=true
 Categories=MMDVM;
 EOL
 
-cat > /usr/share/applications/mmdvm-udrc_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/mmdvm-udrc_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild MMDVM-UDRC

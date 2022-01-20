@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create DAPNETGateway Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/dapnetgateway_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dapnetgateway_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DAPNETGateway Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=DAPNET;
 EOL
 
-cat > /usr/share/applications/dapnetgateway_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dapnetgateway_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DAPNETGateway Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=DAPNET;
 EOL
 
-cat > /usr/share/applications/dapnetgateway_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/dapnetgateway_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DAPNETGateway Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=DAPNET;
 EOL
 
-cat > /usr/share/applications/dapnetgateway_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/dapnetgateway_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DAPNETGateway Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=DAPNET;
 EOL
 
-cat > /usr/share/applications/dapnetgateway_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/dapnetgateway_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DAPNETGateway Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=DAPNET;
 EOL
 
-cat > /usr/share/applications/dapnetgateway_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/dapnetgateway_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=DAPNETGateway Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=DAPNET;
 EOL
 
-cat > /usr/share/applications/dapnetgateway_update.desktop << EOL
+cat > /home/pi/.local/share/applications/dapnetgateway_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update DAPNETGateway
@@ -78,7 +78,7 @@ Terminal=true
 Categories=DAPNET;
 EOL
 
-cat > /usr/share/applications/edit_dapnetgatewayini.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_dapnetgatewayini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit DAPNETGateway.ini
@@ -89,7 +89,7 @@ Terminal=false
 Categories=DAPNET;
 EOL
 
-cat > /usr/share/applications/dapnetgateway_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/dapnetgateway_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset DAPNETGateway.ini
@@ -100,7 +100,7 @@ Terminal=true
 Categories=DAPNET;
 EOL
 
-cat > /usr/share/applications/dapnetgateway_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/dapnetgateway_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild DAPNETGateway

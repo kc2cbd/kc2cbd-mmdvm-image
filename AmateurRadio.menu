@@ -1,124 +1,155 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
-
 <Menu>
-  <Name>Applications</Name>
-  <!-- Amateur Radio -->
-  <Menu>
-    <Name>Amateur Radio</Name>
-    <Directory>amateur-radio.directory</Directory>
-    <Include><Category>AmateurRadio</Category></Include>
-     <Menu>
-       <!-- Dashboard -->
-       <Name>Dashboard</Name>
-       <Directory>dashboard.directory</Directory>
-       <Include>
-         <And><Category>Dashboard</Category></And>
-       </Include>
-       </Menu> <!-- End Dashboard -->    
-     <Menu>
-       <!-- APRS -->
-       <Name>APRS</Name>
-       <Directory>aprs.directory</Directory>
-       <Include>
-         <And><Category>APRS</Category></And>
-       </Include>
-       </Menu> <!-- End APRS -->
-     <Menu>
-       <!-- DAPNET -->
-       <Name>DAPNET</Name>
-       <Directory>dapnet.directory</Directory>
-       <Include>
-         <And><Category>DAPNET</Category></And>
-       </Include>
-       </Menu> <!-- End DAPNET -->
-     <Menu>
-       <!-- DMR -->
-       <Name>DMR</Name>
-       <Directory>dmr.directory</Directory>
-       <Include>
-         <And><Category>DMR</Category></And>
-       </Include>
-       </Menu> <!-- End DMR -->
-     <Menu>
-       <!-- DStar -->
-       <Name>DStar</Name>
-       <Directory>dstar.directory</Directory>
-       <Include>
-         <And><Category>DStar</Category></And>
-       </Include>
-       </Menu> <!-- End DStar -->
-     <Menu>
-       <!-- FM -->
-       <Name>FM</Name>
-       <Directory>fm.directory</Directory>
-       <Include>
-         <And><Category>FM</Category></And>
-       </Include>
-       </Menu> <!-- End FM -->
-     <Menu>
-       <!-- M17 -->
-       <Name>M17</Name>
-       <Directory>m17.directory</Directory>
-       <Include>
-         <And><Category>M17</Category></And>
-       </Include>
-       </Menu> <!-- End M17 -->
-     <Menu>
-       <!-- MMDVM -->
-       <Name>MMDVM</Name>
-       <Directory>mmdvm.directory</Directory>
-       <Include>
-         <And><Category>MMDVM</Category></And>
-       </Include>
-       </Menu> <!-- End MMDVM -->
-     <Menu>
-       <!-- MMDVMHost -->
-       <Name>MMDVMHost</Name>
-       <Directory>mmdvmhost.directory</Directory>
-       <Include>
-         <And><Category>MMDVMHost</Category></And>
-       </Include>
-       </Menu> <!-- End MMDVMHost -->
-     <Menu>       
-        <!-- MultiMode -->
-       <Name>MultiMode</Name>
-       <Directory>multimode.directory</Directory>
-       <Include>
-         <And><Category>MultiMode</Category></And>
-       </Include>
-       </Menu> <!-- End MultiMode -->
-     <Menu>
-       <!-- NXDN -->
-       <Name>NXDN</Name>
-       <Directory>nxdn.directory</Directory>
-       <Include>
-         <And><Category>NXDN</Category></And>
-       </Include>
-       </Menu> <!-- End NXDN -->
-     <Menu>
-       <!-- P25 -->
-       <Name>P25</Name>
-       <Directory>p25.directory</Directory>
-       <Include>
-         <And><Category>P25</Category></And>
-       </Include>
-       </Menu> <!-- End P25 -->
-     <Menu>
-       <!-- YSF -->
-       <Name>YSF</Name>
-       <Directory>ysf.directory</Directory>
-       <Include>
-         <And><Category>YSF</Category></And>
-       </Include>
-       </Menu> <!-- End YSF -->
-     <Menu>
-       <!-- Repeater -->
-       <Name>Repeater</Name>
-       <Directory>repeater.directory</Directory>
-       <Include>
-         <And><Category>Repeater</Category></And>
-       </Include>
-       </Menu> <!-- End Repeater -->       
-  </Menu> <!-- End Amateur Radio -->
+	<Name>Applications</Name>
+	<!-- Amateur Radio -->
+	<Menu>
+		<Name>Amateur Radio</Name>
+		<Directory>AmateurRadio.directory</Directory>
+		<Include>
+			<And>
+			<Category>AmateurRadio</Category>
+			</And>
+		</Include>
+	<Menu>
+		<!-- Dashboard -->
+		<Name>Dashboard</Name>
+		<Directory>Dashboard.directory</Directory>
+		<Include>
+			<And>
+			<Category>Dashboard</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End Dashboard --> 
+	<Menu>
+		<!-- APRS -->
+		<Name>APRS</Name>
+		<Directory>APRS.directory</Directory>
+		<Include>
+			<And>
+			<Category>APRS</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End APRS -->
+	<Menu>
+		<!-- DAPNET -->
+		<Name>DAPNET</Name>
+		<Directory>DAPNET.directory</Directory>
+		<Include>
+			<And>
+			<Category>DAPNET</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End DAPNET -->
+	<Menu>
+		<!-- DMR -->
+		<Name>DMR</Name>
+		<Directory>DMR.directory</Directory>
+		<Include>
+			<And>
+			<Category>DMR</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End DMR -->
+	<Menu>
+		<!-- DStar -->
+		<Name>DStar</Name>
+		<Directory>DStar.directory</Directory>
+		<Include>
+			<And>
+			<Category>DStar</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End DStar -->
+	<Menu>
+		<!-- FM -->
+		<Name>FM</Name>
+		<Directory>FM.directory</Directory>
+		<Include>
+			<And>
+			<Category>FM</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End FM -->
+	<Menu>
+		<!-- M17 -->
+		<Name>M17</Name>
+		<Directory>M17.directory</Directory>
+		<Include>
+			<And>
+			<Category>M17</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End M17 -->
+	<Menu>
+		<!-- MMDVM -->
+		<Name>MMDVM</Name>
+		<Directory>MMDVM.directory</Directory>
+		<Include>
+			<And>
+			<Category>MMDVM</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End MMDVM -->
+	<Menu>
+		<!-- MMDVMHost -->
+		<Name>MMDVMHost</Name>
+		<Directory>MMDVMHost.directory</Directory>
+		<Include>
+			<And>
+			<Category>MMDVMHost</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End MMDVMHost -->
+	<Menu>
+		<!-- MultiMode -->
+		<Name>MultiMode</Name>
+		<Directory>MultiMode.directory</Directory>
+		<Include>
+			<And>
+			<Category>MultiMode</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End MultiMode -->
+	<Menu>
+		<!-- NXDN -->
+		<Name>NXDN</Name>
+		<Directory>NXDN.directory</Directory>
+		<Include>
+			<And>
+			<Category>NXDN</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End NXDN -->
+	<Menu>
+		<!-- P25 -->
+		<Name>P25</Name>
+		<Directory>P25.directory</Directory>
+		<Include>
+			<And>
+			<Category>P25</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End P25 -->
+	<Menu>
+		<!-- YSF -->
+		<Name>YSF</Name>
+		<Directory>YSF.directory</Directory>
+		<Include>
+			<And>
+			<Category>YSF</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End YSF -->
+	<Menu>
+		<!-- Repeater -->
+		<Name>Repeater</Name>
+		<Directory>Repeater.directory</Directory>
+		<Include>
+			<And>
+			<Category>Repeater</Category>
+			</And>
+		</Include>
+	</Menu> <!-- End Repeater -->
+	</Menu> <!-- End Amateur Radio -->
 </Menu>

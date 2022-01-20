@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create MMDVMHost Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/open_Websocketboard_dashboard.desktop << EOL
+cat > /home/pi/.local/share/applications/open_Websocketboard_dashboard.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Open Dashboard
@@ -12,7 +12,7 @@ Terminal=false
 Categories=Dashboard;
 EOL
 
-cat > /usr/share/applications/edit_logtailer_setup.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_logtailer_setup.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit logtailer
@@ -23,7 +23,7 @@ Terminal=false
 Categories=Dashboard;
 EOL
 
-cat > /usr/share/applications/edit_config-js_setup.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_config-js_setup.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit config.js

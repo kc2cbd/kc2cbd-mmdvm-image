@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create NXDNGateway Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/nxdngateway_start.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdngateway_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDNGateway Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=NXDN;
 EOL
 
-cat > /usr/share/applications/nxdngateway_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdngateway_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDNGateway Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=NXDN;
 EOL
 
-cat > /usr/share/applications/nxdngateway_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdngateway_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDNGateway Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=NXDN;
 EOL
 
-cat > /usr/share/applications/nxdngateway_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdngateway_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDNGateway Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=NXDN;
 EOL
 
-cat > /usr/share/applications/nxdngateway_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdngateway_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDNGateway Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=NXDN;
 EOL
 
-cat > /usr/share/applications/nxdngateway_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdngateway_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=NXDNGateway Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=NXDN;
 EOL
 
-cat > /usr/share/applications/nxdngateway_update.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdngateway_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update NXDNGateway
@@ -78,7 +78,7 @@ Terminal=true
 Categories=NXDN;
 EOL
 
-cat > /usr/share/applications/edit_nxdngateway.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_nxdngateway.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit NXDNGateway.ini
@@ -89,7 +89,7 @@ Terminal=false
 Categories=NXDN;
 EOL
 
-cat > /usr/share/applications/nxdngateway_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdngateway_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset NXDNGateway.ini
@@ -100,7 +100,7 @@ Terminal=true
 Categories=NXDN;
 EOL
 
-cat > /usr/share/applications/nxdngateway_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/nxdngateway_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild NXDNGateway

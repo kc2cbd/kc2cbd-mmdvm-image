@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create ircDDBGateway Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/ircddbgateway_start.desktop << EOL
+cat > /home/pi/.local/share/applications/ircddbgateway_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=ircDDBGateway Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/ircddbgateway_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/ircddbgateway_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=ircDDBGateway Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/ircddbgateway_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/ircddbgateway_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=ircDDBGateway Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/ircddbgateway_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/ircddbgateway_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=ircDDBGateway Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/ircddbgateway_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/ircddbgateway_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=ircDDBGateway Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/ircddbgateway_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/ircddbgateway_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=ircDDBGateway Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/ircddbgateway_update.desktop << EOL
+cat > /home/pi/.local/share/applications/ircddbgateway_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update ircDDBGateway
@@ -78,7 +78,7 @@ Terminal=true
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/edit_ircddbgateway.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_ircddbgateway.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit ircDDBGateway.ini
@@ -89,7 +89,7 @@ Terminal=false
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/ircddbgateway_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/ircddbgateway_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset ircDDBGateway.ini
@@ -100,7 +100,7 @@ Terminal=true
 Categories=DStar;
 EOL
 
-cat > /usr/share/applications/ircddbgateway_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/ircddbgateway_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild ircDDBGateway

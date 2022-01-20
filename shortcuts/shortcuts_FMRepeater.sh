@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create FMRepeater Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/fmrepeater_start.desktop << EOL
+cat > /home/pi/.local/share/applications/fmrepeater_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=FMRepeater Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=FM;
 EOL
 
-cat > /usr/share/applications/fmrepeater_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/fmrepeater_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=FMRepeater Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=FM;
 EOL
 
-cat > /usr/share/applications/fmrepeater_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/fmrepeater_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=FMRepeater Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=FM;
 EOL
 
-cat > /usr/share/applications/fmrepeater_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/fmrepeater_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=FMRepeater Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=FM;
 EOL
 
-cat > /usr/share/applications/fmrepeater_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/fmrepeater_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=FMRepeater Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=FM;
 EOL
 
-cat > /usr/share/applications/fmrepeater_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/fmrepeater_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=FMRepeater Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=FM;
 EOL
 
-cat > /usr/share/applications/fmrepeater_update.desktop << EOL
+cat > /home/pi/.local/share/applications/fmrepeater_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update FMRepeater
@@ -78,7 +78,7 @@ Terminal=true
 Categories=FM;
 EOL
 
-cat > /usr/share/applications/edit_fmrepeater.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_fmrepeater.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit FMRepeater.ini
@@ -89,7 +89,7 @@ Terminal=false
 Categories=FM;
 EOL
 
-cat > /usr/share/applications/fmrepeater_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/fmrepeater_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset FMRepeater.ini
@@ -100,7 +100,7 @@ Terminal=true
 Categories=FM;
 EOL
 
-cat > /usr/share/applications/fmrepeater_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/fmrepeater_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild FMRepeater

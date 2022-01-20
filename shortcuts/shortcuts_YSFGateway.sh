@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create YSFGateway Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/ysfgateway_start.desktop << EOL
+cat > /home/pi/.local/share/applications/ysfgateway_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSFGateway Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=YSF;
 EOL
 
-cat > /usr/share/applications/ysfgateway_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/ysfgateway_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSFGateway Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=YSF;
 EOL
 
-cat > /usr/share/applications/ysfgateway_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/ysfgateway_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSFGateway Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=YSF;
 EOL
 
-cat > /usr/share/applications/ysfgateway_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/ysfgateway_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSFGateway Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=YSF;
 EOL
 
-cat > /usr/share/applications/ysfgateway_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/ysfgateway_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSFGateway Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=YSF;
 EOL
 
-cat > /usr/share/applications/ysfgateway_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/ysfgateway_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=YSFGateway Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=YSF;
 EOL
 
-cat > /usr/share/applications/ysfgateway_update.desktop << EOL
+cat > /home/pi/.local/share/applications/ysfgateway_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update YSFGateway
@@ -78,7 +78,7 @@ Terminal=true
 Categories=YSF;
 EOL
 
-cat > /usr/share/applications/edit_ysfgateway.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_ysfgateway.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit YSFGateway.ini
@@ -89,7 +89,7 @@ Terminal=false
 Categories=YSF;
 EOL
 
-cat > /usr/share/applications/ysfgateway_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/ysfgateway_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset YSFGateway.ini
@@ -100,7 +100,7 @@ Terminal=true
 Categories=YSF;
 EOL
 
-cat > /usr/share/applications/ysfgateway_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/ysfgateway_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild YSFGateway

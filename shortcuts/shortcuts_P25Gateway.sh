@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Create P25Gateway Shortcuts in Amateur Radio Menu
-cat > /usr/share/applications/p25gateway_start.desktop << EOL
+cat > /home/pi/.local/share/applications/p25gateway_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P25Gateway Start
@@ -12,7 +12,7 @@ Terminal=false
 Categories=P25;
 EOL
 
-cat > /usr/share/applications/p25gateway_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/p25gateway_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P25Gateway Stop
@@ -23,7 +23,7 @@ Terminal=false
 Categories=P25;
 EOL
 
-cat > /usr/share/applications/p25gateway_service_console.desktop << EOL
+cat > /home/pi/.local/share/applications/p25gateway_service_console.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P25Gateway Background Service Console
@@ -34,7 +34,7 @@ Terminal=true
 Categories=P25;
 EOL
 
-cat > /usr/share/applications/p25gateway_service_start.desktop << EOL
+cat > /home/pi/.local/share/applications/p25gateway_service_start.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P25Gateway Background Service Start
@@ -45,7 +45,7 @@ Terminal=false
 Categories=P25;
 EOL
 
-cat > /usr/share/applications/p25gateway_service_stop.desktop << EOL
+cat > /home/pi/.local/share/applications/p25gateway_service_stop.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P25Gateway Background Service Stop
@@ -56,7 +56,7 @@ Terminal=false
 Categories=P25;
 EOL
 
-cat > /usr/share/applications/p25gateway_service_restart.desktop << EOL
+cat > /home/pi/.local/share/applications/p25gateway_service_restart.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=P25Gateway Background Service Restart
@@ -67,7 +67,7 @@ Terminal=false
 Categories=P25;
 EOL
 
-cat > /usr/share/applications/p25gateway_update.desktop << EOL
+cat > /home/pi/.local/share/applications/p25gateway_update.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Update P25Gateway
@@ -78,7 +78,7 @@ Terminal=true
 Categories=P25;
 EOL
 
-cat > /usr/share/applications/edit_p25gateway.desktop << EOL
+cat > /home/pi/.local/share/applications/edit_p25gateway.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Edit P25Gateway.ini
@@ -89,7 +89,7 @@ Terminal=false
 Categories=P25;
 EOL
 
-cat > /usr/share/applications/p25gateway_resetini.desktop << EOL
+cat > /home/pi/.local/share/applications/p25gateway_resetini.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Reset P25Gateway.ini
@@ -100,7 +100,7 @@ Terminal=true
 Categories=P25;
 EOL
 
-cat > /usr/share/applications/p25gateway_rebuild.desktop << EOL
+cat > /home/pi/.local/share/applications/p25gateway_rebuild.desktop << EOL
 [Desktop Entry]
 Type=Application
 Name=Rebuild P25Gateway
