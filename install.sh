@@ -39,7 +39,7 @@ sleep 5
 #Create Ham Radio Directories
 echo "Creating Amateur Radio Directories"
 notify-send 'Creating Amateur Radio Directories' --icon=dialog-information
-sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/desktop-directories/* /usr/share/raspi-ui-overrides/desktop-directories/
+sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/desktop-directories/* /home/pi/.local/share/desktop-directories
 sleep 5
 
 # Directory Pre-Requisites
