@@ -62,30 +62,26 @@ You may install as many as you like.
 5. If you just would like a system with the apps that are included with Pi-Star then run the following.
 	- /home/pi/Applications/kc2cbd-mmdvm-image/install_MMDVM_Combined.sh
 		- This installs just the needed applications with one command.
-		- If you choose this option then skip to 
+		- If you choose this option then just choose and install your chosen Dashboard.
 	- OR
-	Install the Applications that you would like included on your system individually
+	Install the Applications that you would like included on your system individually and continue to the next step.
 	- /home/pi/Applications/kc2cbd-mmdvm-image/install/install_xxx.sh
 	- xxx = name of Application.
-  
-6. Install Web Dashboard of your choice
-	- sudo /home/pi/Applications/kc2cbd-image/dashboards/install_xxx.sh
-	- xxx being your Dashboard of choice
 
-7. Create Shortcuts for the Applications you've installed individually.
+6. Create Shortcuts for the Applications you've installed individually.
 	- sudo /home/pi/Applications/kc2cbd-mmdvm-image/shortcuts_xxx.sh
 	- Create the Shortcuts according to what you installed.
 	- xxx = name of Application
 
-8. Create the Services you will need according to the Applications you've installed
+7. Create the Services you will need according to the Applications you've installed
 	- sudo /home/pi/Applications/kc2cbd-mmdvm-image/create_xxx_service.sh
 	- xxx = name of Application
 
-9. Create the Services you will need according to the Applications you've installed
-	- sudo /home/pi/Applications/kc2cbd-mmdvm-image/create_xxx_service.sh
-	- xxx = name of Application
+8. Install Web Dashboard of your choice
+	- sudo /home/pi/Applications/kc2cbd-image/dashboards/install_xxx.sh
+	- xxx being your Dashboard of choice
 
-8. From Amateur Radio Menu you can
+9. From Amateur Radio Menu you can
 	- Rebuild From Source
 	- Reset xxx.ini
 	- Update Applications

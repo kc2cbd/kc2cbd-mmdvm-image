@@ -35,4 +35,4 @@ ln -s /lib/systemd/system/aprsgateway.timer /etc/systemd/system/aprsgateway.time
 ln -s /lib/systemd/system/aprsgateway.service /etc/systemd/system/aprsgateway.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-#systemctl enable aprsgateway.timer
+systemctl enable aprsgateway.timer

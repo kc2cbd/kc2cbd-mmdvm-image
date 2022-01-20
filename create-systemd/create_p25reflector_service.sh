@@ -35,4 +35,4 @@ ln -s /lib/systemd/system/p25reflector.timer /etc/systemd/system/p25reflector.ti
 ln -s /lib/systemd/system/p25reflector.service /etc/systemd/system/p25reflector.service
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
-#systemctl enable p25reflector.timer
+systemctl enable p25reflector.timer

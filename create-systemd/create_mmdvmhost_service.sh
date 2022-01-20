@@ -36,3 +36,4 @@ ln -s /lib/systemd/system/mmdvmhost.service /etc/systemd/system/mmdvmhost.servic
 # Pickup New Service and Enable Timer
 systemctl daemon-reload
 systemctl enable mmdvmhost.timer
+systemctl enable mmdvmhost.service

@@ -6,7 +6,7 @@ cat > /home/pi/.local/share/applications/open_dashboard.desktop << EOL
 Type=Application
 Name=Open Dashboard
 GenericName=Open Dashboard
-Exec=chromium-browser localhost/index.php &
+Exec=chromium-browser localhost/index.php
 Icon=
 Terminal=false
 Categories=Dashboard;
