@@ -30,16 +30,22 @@ sudo bash -c 'echo "# Disable Bluetooth on Raspberry Pi 3" >> /boot/config.txt'
 sudo bash -c 'echo "dtoverlay=pi3-disable-bt" >> /boot/config.txt'
 sleep 5
 
-#Create Ham Radio Menu
+# Create Ham Radio Menu
 echo "Creating Amateur Radio Menus"
 notify-send 'Creating Amateur Radio Menus' --icon=dialog-information
 sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/AmateurRadio.menu /etc/xdg/menus/applications-merged/
 sleep 5
 
-#Create Ham Radio Directories
+# Create Ham Radio Directories
 echo "Creating Amateur Radio Directories"
 notify-send 'Creating Amateur Radio Directories' --icon=dialog-information
-sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/desktop-directories/* /home/pi/.local/share/desktop-directories
+cp /home/pi/Applications/kc2cbd-mmdvm-image/desktop-directories/* /home/pi/.local/share/desktop-directories
+sleep 5
+
+# Installing Icon Pictures
+echo "Copying Icons"
+notify-send 'Copying Icons' --icon=dialog-information
+cp /home/pi/Applications/kc2cbd-mmdvm-image/Images/* /home/pi/Pictures
 sleep 5
 
 # Directory Pre-Requisites
