@@ -7,10 +7,12 @@ Description=P25Reflector Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S P25Reflector -D -m /usr/local/bin/P25Reflector /usr/local/etc/MMDVMConf/P25Reflector.ini
 ExecStop=/usr/bin/screen -S P25Reflector -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

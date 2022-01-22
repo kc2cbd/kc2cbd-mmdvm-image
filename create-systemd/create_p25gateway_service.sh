@@ -7,10 +7,12 @@ Description=P25Gateway Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S P25Gateway -D -m /usr/local/bin/P25Clients /usr/local/etc/MMDVMConf/P25Gateway.ini
 ExecStop=/usr/bin/screen -S P25Gateway -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

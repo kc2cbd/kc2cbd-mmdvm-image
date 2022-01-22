@@ -7,10 +7,12 @@ Description=FMRepeater Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S FMRepeater -D -m /usr/local/bin/FMRepeater /usr/local/etc/MMDVMConf/FMRepeater.ini
 ExecStop=/usr/bin/screen -S FMRepeater -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

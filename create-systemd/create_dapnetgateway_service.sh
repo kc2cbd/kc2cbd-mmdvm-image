@@ -7,10 +7,12 @@ Description=DAPNETGateway Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S DAPNETGateway -D -m /usr/local/bin/DAPNETGateway /usr/local/etc/MMDVMConf/DAPNETGateway.ini
 ExecStop=/usr/bin/screen -S DAPNETGateway -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

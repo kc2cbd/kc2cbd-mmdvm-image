@@ -7,10 +7,12 @@ Description=DummyRepeater Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S DummyRepeater -D -m /usr/local/bin/DummyRepeater /usr/local/etc/MMDVMConf/DummyRepeater.ini
 ExecStop=/usr/bin/screen -S DummyRepeater -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

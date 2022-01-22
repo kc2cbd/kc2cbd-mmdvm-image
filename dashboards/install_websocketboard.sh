@@ -23,11 +23,6 @@ notify-send 'BUILD' 'Installing Needed Applications' --icon=dialog-information -
 sudo apt-get install -y git python3  python3-websockets python3-gpiozero python3-psutil python3-serial python3-pip colorized-logs colordiff colormake ccze colortail
 sudo pip3 install ansi2html
 sleep 5
-#Create MMDVM System User
-echo "[BUILD][$(date)] ===== Creating MMDVM System User ====="
-notify-send 'BUILD' 'Creating MMDVM System User' --icon=dialog-information --urgency=critical
-sudo adduser --system --no-create-home --group mmdvm
-sleep 5
 #Add MMDVM User to dialout
 echo "[BUILD][$(date)] ===== Adding MMDVM System User to dialout ====="
 notify-send 'BUILD' 'Adding MMDVM System User to dialout' --icon=dialog-information --urgency=critical

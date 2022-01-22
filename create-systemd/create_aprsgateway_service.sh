@@ -7,10 +7,12 @@ Description=APRSGateway Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S APRSGateway -D -m /usr/local/bin/APRSGateway /usr/local/etc/MMDVMConf/APRSGateway.ini
 ExecStop=/usr/bin/screen -S APRSGateway -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

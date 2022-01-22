@@ -7,10 +7,12 @@ Description=DMR2M17 Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S DMR2M17 -D -m /usr/local/bin/DMR2M17 /usr/local/etc/MMDVMConf/DMR2M17.ini
 ExecStop=/usr/bin/screen -S DMR2M17 -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -44,10 +46,12 @@ Description=DMR2NXDN Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S DMR2NXDN -D -m /usr/local/bin/DMR2NXDN /usr/local/etc/MMDVMConf/DMR2NXDN.ini
 ExecStop=/usr/bin/screen -S DMR2NXDN -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -81,10 +85,12 @@ Description=DMR2P25 Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S DMR2P25 -D -m /usr/local/bin/DMR2P25 /usr/local/etc/MMDVMConf/DMR2P25.ini
 ExecStop=/usr/bin/screen -S DMR2P25 -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -118,10 +124,12 @@ Description=DMR2YSF Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S DMR2YSF -D -m /usr/local/bin/DMR2YSF /usr/local/etc/MMDVMConf/DMR2YSF.ini
 ExecStop=/usr/bin/screen -S DMR2YSF -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -155,10 +163,12 @@ Description=M172DMR Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S M172DMR -D -m /usr/local/bin/M172DMR /usr/local/etc/MMDVMConf/M172DMR.ini
 ExecStop=/usr/bin/screen -S M172DMR -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -192,10 +202,12 @@ Description=M172YSF Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S M172YSF -D -m /usr/local/bin/M172YSF /usr/local/etc/MMDVMConf/M172YSF.ini
 ExecStop=/usr/bin/screen -S M172YSF -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -229,10 +241,12 @@ Description=NXDN2DMR Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S NXDN2DMR -D -m /usr/local/bin/NXDN2DMR /usr/local/etc/MMDVMConf/NXDN2DMR.ini
 ExecStop=/usr/bin/screen -S NXDN2DMR -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -266,10 +280,12 @@ Description=P252DMR Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S P252DMR -D -m /usr/local/bin/P252DMR /usr/local/etc/MMDVMConf/P252DMR.ini
 ExecStop=/usr/bin/screen -S P252DMR -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -303,10 +319,12 @@ Description=USRP2DMR Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S USRP2DMR -D -m /usr/local/bin/USRP2DMR /usr/local/etc/MMDVMConf/USRP2DMR.ini
 ExecStop=/usr/bin/screen -S USRP2DMR -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -340,10 +358,12 @@ Description=USRP2M17 Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S USRP2M17 -D -m /usr/local/bin/USRP2M17 /usr/local/etc/MMDVMConf/USRP2M17.ini
 ExecStop=/usr/bin/screen -S USRP2M17 -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -377,10 +397,12 @@ Description=USRP2P25 Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S USRP2P25 -D -m /usr/local/bin/USRP2P25 /usr/local/etc/MMDVMConf/USRP2P25.ini
 ExecStop=/usr/bin/screen -S USRP2P25 -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -414,10 +436,12 @@ Description=USRP2YSF Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S USRP2YSF -D -m /usr/local/bin/USRP2YSF /usr/local/etc/MMDVMConf/USRP2YSF.ini
 ExecStop=/usr/bin/screen -S USRP2YSF -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -451,10 +475,12 @@ Description=YSF2DMR Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S YSF2DMR -D -m /usr/local/bin/YSF2DMR /usr/local/etc/MMDVMConf/YSF2DMR.ini
 ExecStop=/usr/bin/screen -S YSF2DMR -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -488,10 +514,12 @@ Description=YSF2NXDN Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S YSF2NXDN -D -m /usr/local/bin/YSF2NXDN /usr/local/etc/MMDVMConf/YSF2NXDN.ini
 ExecStop=/usr/bin/screen -S YSF2NXDN -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
@@ -525,10 +553,12 @@ Description=YSF2P25 Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S YSF2P25 -D -m /usr/local/bin/YSF2P25 /usr/local/etc/MMDVMConf/YSF2P25.ini
 ExecStop=/usr/bin/screen -S YSF2P25 -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

@@ -7,10 +7,12 @@ Description=YSFReflector Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S YSFReflector -D -m /usr/local/bin/YSFReflector /usr/local/etc/MMDVMConf/YSFReflector.ini
 ExecStop=/usr/bin/screen -S YSFReflector -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

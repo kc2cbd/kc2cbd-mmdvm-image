@@ -7,10 +7,12 @@ Description=M17Client Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S M17Client -D -m /usr/local/bin/M17Client /usr/local/etc/MMDVMConf/M17Client.ini
 ExecStop=/usr/bin/screen -S M17Gateway -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

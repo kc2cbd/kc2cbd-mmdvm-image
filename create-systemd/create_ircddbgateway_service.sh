@@ -7,10 +7,12 @@ Description=ircDDBGateway Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S ircDDBGateway -D -m /usr/local/bin/ircDDBGateway /usr/local/etc/MMDVMConf/ircDDBGateway.ini
 ExecStop=/usr/bin/screen -S ircDDBGateway -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

@@ -7,10 +7,12 @@ Description=MMDVM Host Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
-ExecStart=/usr/bin/screen -S MMDVMHost -D -m /usr/local/bin/MMDVMHost /usr/local/etc/MMDVMConfMMDVM.ini
+ExecStart=/usr/bin/screen -S MMDVMHost -D -m /usr/local/bin/MMDVMHost /usr/local/etc/MMDVMConf/MMDVM.ini
 ExecStop=/usr/bin/screen -S MMDVMHost -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

@@ -7,10 +7,12 @@ Description=NXDNReflector Service
 After=syslog.target network.target
 
 [Service]
-User=pi
+User=mmdvm
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/bin/screen -S NXDNReflector -D -m /usr/local/bin/NXDNReflector /usr/local/etc/MMDVMConf/NXDNReflector.ini
 ExecStop=/usr/bin/screen -S NXDNReflector -X quit
+Restart=always
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target

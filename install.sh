@@ -66,16 +66,24 @@ sudo chown -R pi:pi /var/log/MMDVM
 sudo chmod +777 /var/log/MMDVM
 sleep 5
 
-#Create Logrotate File
+# Create Logrotate File
 echo "Creating Logrotate File"
 notify-send 'Creating Logrotate File' --icon=dialog-information --urgency=critical
 sudo cp /home/pi/Applications/kc2cbd-mmdvm-image/MMDVM_logrotate /etc/logrotate.d/MMDVM
 sleep 5
 
-#Copy Needed Scripts
+# Copy Needed Scripts
 echo "Copying Scripts"
 notify-send 'Copying Scripts' --icon=dialog-information --urgency=critical
 cp -r /home/pi/Applications/kc2cbd-mmdvm-image/usr-local-share/scripts/* /usr/local/share/scripts
+
+# Create MMDVM System User
+echo "Create MMDVM System User"
+notify-send 'Create MMDVM System User' --icon=dialog-information --urgency=critical
+sudo groupadd mmdvm
+sudo useradd mmdvm -g mmdvm -s /sbin/nologin
+sudo usermod mmdvm -G dialout
+
 
 echo "Your Device will now REBOOT!"
 notify-send 'Your Device will now REBOOT!' --icon=dialog-information --urgency=critical
