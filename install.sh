@@ -82,7 +82,7 @@ echo "Create MMDVM System User"
 notify-send 'Create MMDVM System User' --icon=dialog-information --urgency=critical
 sudo groupadd mmdvm
 sudo useradd mmdvm -g mmdvm -s /sbin/nologin
-sudo usermod mmdvm -G dialout
+sudo usermod -a -G dialout,tty,netdev,mmdvm,gpio,i2c,users,input,plugdev mmdvm
 
 
 echo "Your Device will now REBOOT!"
