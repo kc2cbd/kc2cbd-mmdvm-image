@@ -1,7 +1,7 @@
 /var/log/MMDVM/*.log
    weekly
    rotate 3
-   size 20M
+   size 10M
    dateext
    dateformat -%Y%m%d
    notifempty
