@@ -20,7 +20,7 @@ sleep 5
 #Install needed Apps
 echo "[BUILD][$(date)] ===== Installing Needed Applications ====="
 notify-send 'BUILD' 'Installing Needed Applications' --icon=dialog-information --urgency=critical
-sudo apt-get install -y lighttpd php php-common php-cgi  sqlite3 php5-sqlite
+sudo apt-get install -y lighttpd php php-common php-cgi sqlite3 php-sqlite3
 sleep 5
 # Create a group for webserver and add pi to it
 echo "[BUILD][$(date)] ===== Creating www-data ====="
@@ -40,11 +40,6 @@ notify-send 'BUILD' 'Enabling Lighttpd Plugins' --icon=dialog-information --urge
 sudo lighty-enable-mod fastcgi
 sudo lighty-enable-mod fastcgi-php
 sleep 5
-#Restart lighttpd
-echo "[BUILD][$(date)] ===== Restarting Lighttpd ====="
-notify-send 'BUILD' 'Restarting Lighttpd' --icon=dialog-information --urgency=critical
-sudo service lighttpd force-reload
-sleep 5
 #Download Source
 echo "[BUILD][$(date)] ===== Downloading MMDVMHost-Dashboard ====="
 notify-send 'BUILD' 'Downloading MMDVMHost-Dashboard' --icon=dialog-information
@@ -53,7 +48,12 @@ sleep 5
 #Copy to /var/www/html/
 echo "[BUILD][$(date)] ===== Copying MMDVMHost-Dashboard ====="
 notify-send 'BUILD' 'Copying MMDVMHost-Dashboard' --icon=dialog-information --urgency=critical
-sudo cp -r /home/pi/Applications/MMDVMHost-Dashboard/*.* /var/www/html/
+sudo cp -r /home/pi/Applications/MMDVMHost-Dashboard/* /var/www/html/
+sleep 5
+#Restart lighttpd
+echo "[BUILD][$(date)] ===== Restarting Lighttpd ====="
+notify-send 'BUILD' 'Restarting Lighttpd' --icon=dialog-information --urgency=critical
+sudo systemctl force-reload lighttpd 
 sleep 5
 #Open Browser and Configure
 echo "[BUILD][$(date)] ===== Opening Your Browser for Setup ====="

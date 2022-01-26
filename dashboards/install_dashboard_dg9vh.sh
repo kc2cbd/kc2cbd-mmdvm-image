@@ -20,7 +20,7 @@ sleep 5
 #Install needed Apps
 echo "[BUILD][$(date)] ===== Installing Needed Applications ====="
 notify-send 'BUILD' 'Installing Needed Applications' --icon=dialog-information --urgency=critical
-sudo apt-get install -y lighttpd php php-common php-cgi sqlite3 php5-sqlite
+sudo apt-get install -y lighttpd php php-common php-cgi sqlite3 php-sqlite3
 sleep 5
 # Create a group for webserver and add pi to it
 echo "[BUILD][$(date)] ===== Creating www-data ====="
