@@ -33,3 +33,14 @@ Icon=
 Terminal=false
 Categories=Dashboard;
 EOL
+
+cat > /home/pi/.local/share/applications/restart_websocketboard_service.desktop << EOL
+[Desktop Entry]
+Type=Application
+Name=Restart Dashboard Service
+GenericName=Restart Dashboard Service
+Exec=sudo systemctl restart http.server.service && sudo systemctl restart logtailer.service
+Icon=
+Terminal=false
+Categories=Dashboard;
+EOL
