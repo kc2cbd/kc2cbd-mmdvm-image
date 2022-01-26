@@ -20,7 +20,19 @@ sleep 5
 #Install needed Apps
 echo "[BUILD][$(date)] ===== Installing Needed Applications ====="
 notify-send 'BUILD' 'Installing Needed Applications' --icon=dialog-information --urgency=critical
-sudo apt-get install -y lighttpd php php-common php-cgi 
+sudo apt-get install -y lighttpd php php-common php-cgi sqlite3 php5-sqlite
+sleep 5
+# Create a group for webserver and add pi to it
+echo "[BUILD][$(date)] ===== Creating www-data ====="
+notify-send 'BUILD' 'Creating www-data' --icon=dialog-information --urgency=critical
+sudo groupadd www-data
+sudo usermod -G www-data -a pi
+sleep 5
+#Set Permissions
+echo "[BUILD][$(date)] ===== Setting Permissions ====="
+notify-send 'BUILD' 'Setting Permissions' --icon=dialog-information --urgency=critical
+sudo chown -R www-data: www-data /var/www/html
+sudo chmod -R 775 /var/www/html
 sleep 5
 #Enable plugins
 echo "[BUILD][$(date)] ===== Enabling Lighttpd Plugins ====="
@@ -42,12 +54,6 @@ sleep 5
 echo "[BUILD][$(date)] ===== Copying MMDVMHost-Dashboard ====="
 notify-send 'BUILD' 'Copying MMDVMHost-Dashboard' --icon=dialog-information --urgency=critical
 sudo cp -r /home/pi/Applications/MMDVMHost-Dashboard/* /var/www/html/
-sleep 5
-#Set Permissions
-echo "[BUILD][$(date)] ===== Setting Permissions ====="
-notify-send 'BUILD' 'Setting Permissions' --icon=dialog-information --urgency=critical
-sudo chown -R www-data: www-data /var/www/html
-sudo chmod -R 775 /var/www/html
 sleep 5
 #Open Browser and Configure
 echo "[BUILD][$(date)] ===== Opening Your Browser for Setup ====="
