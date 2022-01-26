@@ -20,7 +20,7 @@ sleep 5
 #Install needed Apps
 echo "[BUILD][$(date)] ===== Installing Needed Applications ====="
 notify-send 'BUILD' 'Installing Needed Applications' --icon=dialog-information --urgency=critical
-sudo apt-get install -y lighttpd php5-common php5-cgi php5
+sudo apt-get install -y lighttpd php php-common php-cgi 
 sleep 5
 #Enable plugins
 echo "[BUILD][$(date)] ===== Enabling Lighttpd Plugins ====="
@@ -41,7 +41,7 @@ sleep 5
 #Copy to /var/www/html/
 echo "[BUILD][$(date)] ===== Copying MMDVMHost-Dashboard ====="
 notify-send 'BUILD' 'Copying MMDVMHost-Dashboard' --icon=dialog-information --urgency=critical
-cp /home/pi/Applications/MMDVMHost-Dashboard/* /var/www/html/
+sudo cp -r /home/pi/Applications/MMDVMHost-Dashboard/*.* /var/www/html/
 sleep 5
 #Set Permissions
 echo "[BUILD][$(date)] ===== Setting Permissions ====="
